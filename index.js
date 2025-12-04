@@ -18,7 +18,7 @@ const app = express();
 // ✅ 1️⃣ Enable CORS (must be first)
 app.use(
   cors({
-    origin: ["hayzel-client-production.up.railway.app", process.env.CLIENT_URL],
+    origin: ["hayzel-server-production.up.railway.app"],
     credentials: true,
   })
 );
